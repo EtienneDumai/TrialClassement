@@ -11,10 +11,12 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     fenetreprincipale.cpp \
+    moto.cpp \
     pilote.cpp
 
 HEADERS += \
     fenetreprincipale.h \
+    moto.h \
     pilote.h
 
 FORMS += \
