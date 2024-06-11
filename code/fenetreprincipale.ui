@@ -20,14 +20,22 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuParametre">
     <property name="title">
      <string>Parametre</string>
     </property>
+    <widget class="QMenu" name="menuPilote">
+     <property name="title">
+      <string>Pilote</string>
+     </property>
+     <addaction name="actionAjouter"/>
+     <addaction name="actionAjouter_R_sultats"/>
+    </widget>
     <addaction name="actionQuitter"/>
+    <addaction name="menuPilote"/>
    </widget>
    <addaction name="menuParametre"/>
   </widget>
@@ -35,6 +43,21 @@
   <action name="actionQuitter">
    <property name="text">
     <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionAjouter_Pilote">
+   <property name="text">
+    <string>Ajouter Pilote</string>
+   </property>
+  </action>
+  <action name="actionAjouter">
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </action>
+  <action name="actionAjouter_R_sultats">
+   <property name="text">
+    <string>Ajouter Résultats</string>
    </property>
   </action>
  </widget>

@@ -9,6 +9,7 @@ class Pilote
 {
 public:
     Pilote(int id, string categorie, Moto moto, string nom, string prenom, string club);
+
     // GETTERS
     int getId() const;
     string getCategorie() const;
@@ -16,6 +17,7 @@ public:
     string getNom()const;
     string getPrenom()const;
     string getClub()const;
+
     // SETTERS
     void setId(int id);
     void setCategorie(string categorie);

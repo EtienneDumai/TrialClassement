@@ -8,8 +8,6 @@ Pilote::Pilote(int id, string categorie, Moto moto, string nom, string prenom, s
     m_club(club),
     m_moto(moto){}
 
-
-
 //GETTERS
 int Pilote::getId() const {
     return m_id;
