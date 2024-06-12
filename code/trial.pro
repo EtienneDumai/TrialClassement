@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     ajouterpilote.cpp \
+    ajouterresultats.cpp \
     main.cpp \
     fenetreprincipale.cpp \
     moto.cpp \
@@ -17,12 +18,14 @@ SOURCES += \
 
 HEADERS += \
     ajouterpilote.h \
+    ajouterresultats.h \
     fenetreprincipale.h \
     moto.h \
     pilote.h
 
 FORMS += \
     ajouterpilote.ui \
+    ajouterresultats.ui \
     fenetreprincipale.ui
 
 # Default rules for deployment.

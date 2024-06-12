@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>AjouterPilote</class>
- <widget class="QWidget" name="AjouterPilote">
+ <class>AjouterResultats</class>
+ <widget class="QWidget" name="AjouterResultats">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>719</width>
+    <height>467</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="btnQuitter">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>190</y>
+     <x>350</x>
+     <y>260</y>
      <width>83</width>
      <height>29</height>
     </rect>

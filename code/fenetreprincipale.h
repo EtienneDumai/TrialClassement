@@ -2,7 +2,7 @@
 #define FENETREPRINCIPALE_H
 
 #include <QMainWindow>
-#include "ajouterpilote.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class FenetrePrincipale;
@@ -22,6 +22,7 @@ private:
 public slots:
     void demanderFermeture();
     void demanderAjouterPilote();
+    void demanderAjouterResultats();
 
 };
 
